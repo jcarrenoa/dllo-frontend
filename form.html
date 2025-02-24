@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Web</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="form.html">Contacto</a>
+    </nav>
+    <h1>Have a question?</h1>
+    <h3>Contact us</h3>
+    <form action="/send_message">
+        <label for="name">Full Name</label>
+        <input type="text" id="name">
+
+        <label for="email">Email Address</label>
+        <input type="text" id="email">
+
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone">
+
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip">
+        </div>
+        
+        <label for="division">Division (if applicable)</label>
+        <input type="text" id="division">
+
+        <label for="message">Message</label>
+        <input type="text" id="message">
+
+        <button id="form_submit">Submit</button>
+    </form>
+</body>
+</html>
